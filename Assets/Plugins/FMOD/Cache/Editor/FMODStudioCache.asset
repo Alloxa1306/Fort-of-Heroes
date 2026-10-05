@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8353944498769464444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/genak/Desktop/Fmod_Unity_SkillBox_ECS/SkillBox_ECS/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639259762506668712
+  FileSizes:
+  - Name: Desktop
+    Value: 1158
+  Exists: 1
+--- !u!114 &-6277440861357369190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ButtonUp
+  m_EditorClassIdentifier: 
+  Path: event:/ButtonUp
+  Guid:
+    Data1: -1862838107
+    Data2: 1123234924
+    Data3: 1739078335
+    Data4: 670567096
+  Banks:
+  - {fileID: 259519870569507195}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6186739907652400001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Walk
+  m_EditorClassIdentifier: 
+  Path: event:/Walk
+  Guid:
+    Data1: 1761415452
+    Data2: 1102208170
+    Data3: 1379364285
+    Data4: 1315464647
+  Banks:
+  - {fileID: 259519870569507195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2744459040302799391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound_Pick
+  m_EditorClassIdentifier: 
+  Path: event:/Sound_Pick
+  Guid:
+    Data1: 1330914629
+    Data2: 1270548513
+    Data3: 1302522025
+    Data4: 894903582
+  Banks:
+  - {fileID: 259519870569507195}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -8353944498769464444}
+  - {fileID: 259519870569507195}
+  EditorEvents:
+  - {fileID: -6277440861357369190}
+  - {fileID: 3870994212965209278}
+  - {fileID: 5330910582712275553}
+  - {fileID: -6186739907652400001}
+  - {fileID: -2744459040302799391}
+  - {fileID: 4155489350967829782}
+  - {fileID: 5782077582528373185}
+  - {fileID: 5041039449511367079}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 259519870569507195}
+  StringsBanks:
+  - {fileID: -8353944498769464444}
+  cacheTime: 639259762506668712
+  cacheVersion: 131637
+--- !u!114 &259519870569507195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/genak/Desktop/Fmod_Unity_SkillBox_ECS/SkillBox_ECS/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639259762506658634
+  FileSizes:
+  - Name: Desktop
+    Value: 6815424
+  Exists: 1
+--- !u!114 &3870994212965209278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MainMenu
+  m_EditorClassIdentifier: 
+  Path: event:/MainMenu
+  Guid:
+    Data1: -2146070517
+    Data2: 1315766555
+    Data3: 1519902874
+    Data4: 728876002
+  Banks:
+  - {fileID: 259519870569507195}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4155489350967829782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/StepGolem
+  m_EditorClassIdentifier: 
+  Path: event:/StepGolem
+  Guid:
+    Data1: 1349260494
+    Data2: 1274093856
+    Data3: -150027122
+    Data4: 839596342
+  Banks:
+  - {fileID: 259519870569507195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5041039449511367079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AttackGolem
+  m_EditorClassIdentifier: 
+  Path: event:/AttackGolem
+  Guid:
+    Data1: 857594765
+    Data2: 1340075281
+    Data3: 749660859
+    Data4: -138679455
+  Banks:
+  - {fileID: 259519870569507195}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5330910582712275553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scene1
+  m_EditorClassIdentifier: 
+  Path: event:/Scene1
+  Guid:
+    Data1: 1645893821
+    Data2: 1153362017
+    Data3: 1884608933
+    Data4: -1447241263
+  Banks:
+  - {fileID: 259519870569507195}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5782077582528373185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ShootBullet
+  m_EditorClassIdentifier: 
+  Path: event:/ShootBullet
+  Guid:
+    Data1: -1493779748
+    Data2: 1285358369
+    Data3: 623829933
+    Data4: -1445163007
+  Banks:
+  - {fileID: 259519870569507195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0

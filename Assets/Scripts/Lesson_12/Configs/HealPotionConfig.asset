@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bbf7807810c4d048a520b9053f4922b, type: 3}
+  m_Name: HealPotionConfig
+  m_EditorClassIdentifier: 
+  itemName: "\u0417\u0435\u043B\u044C\u0435 \u0417\u0434\u043E\u0440\u043E\u0432\u044C\u044F"
+  description: 
+  icon: {fileID: 21300000, guid: 6400fd78d8766904d95c05382457d0aa, type: 3}
+  perkType: 0
+  value: 30
+  duration: 0
